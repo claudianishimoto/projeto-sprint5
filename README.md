@@ -3,7 +3,7 @@ PROJETO-SPRINT5
 VERSÃO 1.0 README
 =======================================================================
 
-Acesse o aplicativo pela URL: https://projeto-sprint5.onrender.com/
+Acesse o aplicativo pela URL: https://projeto-sprint5-ipdt.onrender.com
 
 Recursos dessa versão:
 - Checkbox para exibir um histograma de todos os preços dos carros 
