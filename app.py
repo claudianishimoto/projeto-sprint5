@@ -9,7 +9,7 @@ car_data = pd.read_csv('./vehicles.csv')
 st.header('Dados de anúncios de vendas de carros')
 
 # Exibindo texto orientativo de funcionamento do sistema
-st.write('*Selecione ao menos uma das opções abaixo para visualizar o respectivo gráfico*')
+st.write('**Selecione ao menos uma das opções abaixo para visualizar o respectivo gráfico**')
 
 # Checkbox para gerar um histograma
 hist_checkbox = st.checkbox(
