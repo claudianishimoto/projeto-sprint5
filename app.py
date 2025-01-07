@@ -38,7 +38,7 @@ if scatter_checkbox:
     st.write('*Criando um gráfico de dispersão...*')
 
     # Criar um gráfico de dispersão
-    fig = px.scatter(car_data, x='model_year', y='condition' color='model')
+    fig = px.scatter(car_data, x='model_year', y='condition', color='model')
 
     # Exibir um gráfico Plotly interativo
     st.plotly_chart(fig, use_container_width=True)
