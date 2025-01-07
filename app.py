@@ -22,7 +22,7 @@ if hist_checkbox:
         '*Criando um histograma...*')
 
     # Criar um histograma
-    fig = px.histogram(car_data, x='price', color='model')
+    fig = px.histogram(car_data, x='condition', color='model_year')
 
     # Exibir um gráfico Plotly interativo
     st.plotly_chart(fig, use_container_width=True)
@@ -38,7 +38,7 @@ if scatter_checkbox:
     st.write('*Criando um gráfico de dispersão...*')
 
     # Criar um gráfico de dispersão
-    fig = px.scatter(car_data, x='price', color='model')
+    fig = px.scatter(car_data, x='model_year', y='condition' color='model')
 
     # Exibir um gráfico Plotly interativo
     st.plotly_chart(fig, use_container_width=True)
