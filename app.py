@@ -22,7 +22,7 @@ if hist_checkbox:
         '*Criando um histograma...*')
 
     # Criar um histograma
-    fig = px.histogram(car_data, x='condition', color='price')
+    fig = px.histogram(car_data, x='price', color='condition')
 
     # Exibir um gráfico Plotly interativo
     st.plotly_chart(fig, use_container_width=True)
